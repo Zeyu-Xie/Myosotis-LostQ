@@ -1,34 +1,30 @@
-/* Font */
+@charset "UTF-8";
+/* 定义字体路径变量 */
+/* 字体列表 */
+/* 生成 @font-face */
+@font-face {
+  font-family: TianShiSongTiErJianZi;
+  src: url(../fonts/TianShiSongTiErJianZi.ttf) format("truetype");
+}
+@font-face {
+  font-family: Nyushufengqi;
+  src: url(../fonts/Nyushufengqi.ttf) format("truetype");
+}
+@font-face {
+  font-family: NyushuFirmia;
+  src: url(../fonts/NyushuFirmia.ttf) format("truetype");
+}
+@font-face {
+  font-family: Fangzhengxiaozhuan;
+  src: url(../fonts/Fangzhengxiaozhuan.ttf) format("truetype");
+}
+@font-face {
+  font-family: NomNaTong;
+  src: url(../fonts/NomNaTong.ttf) format("truetype");
+}
+@font-face {
+  font-family: MonBaiti;
+  src: url(../fonts/monbaiti.ttf) format("truetype");
+}
 
-/* Chinese - 二简字 */
-@font-face {
-  font-family: 'TianShiSongTiErJianZi';
-  src: url('../fonts/TianShiSongTiErJianZi.ttf') format('truetype');
-}
-/* Chinese - 女书 */
-@font-face {
-  font-family: 'Nyushufengqi';
-  src: url('../fonts/Nyushufengqi.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'NyushuFirmia';
-  src: url('../fonts/NyushuFirmia.ttf') format('truetype');
-}
-
-/* Wenyan - 小篆 */
-@font-face {
-  font-family: 'Fangzhengxiaozhuan';
-  src: url('../fonts/Fangzhengxiaozhuan.ttf') format('truetype');
-}
-
-/* Vietnamese - 喃字 */
-@font-face {
-  font-family: 'NomNaTong';
-  src: url('../fonts/NomNaTong.ttf') format('truetype');
-}
-
-/* Mongolian - Traditional Mongolian */
-@font-face {
-  font-family: 'MonBaiti';
-  src: url('../fonts/monbaiti.ttf') format('truetype');
-}
+/*# sourceMappingURL=index.css.map */
